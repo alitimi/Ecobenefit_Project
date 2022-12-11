@@ -1,0 +1,42 @@
+/*  fonts  */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto Slab, sans-serif;
+}
+
+p, article, .chart {
+    font-family: Fira Sans, sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.desc {
+    margin-top: 4em;
+    border: 1px solid #f00000;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-align: justify;
+}
+
+.container {
+    margin-top: 2%;
+    border: 1px solid #e28743;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart {
+    margin: 2%;
+    padding: 2%;
+}
+.chartTitle {
+    font-size: 20px;
+    text-align: center;
+}
